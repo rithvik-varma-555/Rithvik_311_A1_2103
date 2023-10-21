@@ -65,3 +65,73 @@ footer {
     padding: 10px;
     border-style: solid;
 }
+
+aside a {
+    display: block;
+    padding: 5px;
+}
+
+/* Media Query for Tablet Screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for readability */
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 100%; /* Make the image responsive to the screen width */
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    aside {
+        flex: 0 0 100%;
+        padding: 10px;
+    }
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px; /* Further adjust font size for smaller screens */
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav ul {
+        padding: 10px;
+    }
+
+    img {
+        width: 100%; /* Make the image responsive to the screen width */
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    aside {
+        padding: 10px;
+    }
+}
