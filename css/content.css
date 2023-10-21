@@ -40,16 +40,6 @@ main {
     padding: 20px;
 }
 
-table {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    
-}
-
-table, th, td {
-    border: 1px solid;
-}
 
 aside {
     flex: 0 0 250px;
