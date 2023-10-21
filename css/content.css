@@ -74,7 +74,7 @@ aside a {
 /* Media Query for Tablet Screens */
 @media (max-width: 768px) {
     body {
-        font-size: 14px; /* Adjust font size for readability */
+        font-size: 14px; 
     }
 
     header {
@@ -87,7 +87,7 @@ aside a {
     }
 
     img {
-        width: 100%; /* Make the image responsive to the screen width */
+        width: 100%; 
     }
 
     section {
@@ -108,7 +108,7 @@ aside a {
 /* Media Query for Mobile Screens */
 @media (max-width: 480px) {
     body {
-        font-size: 12px; /* Further adjust font size for smaller screens */
+        font-size: 12px; 
     }
 
     header {
@@ -124,7 +124,7 @@ aside a {
     }
 
     img {
-        width: 100%; /* Make the image responsive to the screen width */
+        width: 100%; 
     }
 
     section {
