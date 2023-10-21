@@ -8,9 +8,9 @@ body {
 
 header {
     border-style: solid;
-    background-color: red;
     padding: 20px;
     text-align: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }
 
 nav {
@@ -73,10 +73,15 @@ footer {
     text-align: center;
     padding: 10px;
     border-style: solid;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }
 
 aside a {
     display: block;
+}
+
+article {
+    display: flex;
 }
 
 /* Media Query for medium Screens */
