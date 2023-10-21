@@ -70,6 +70,9 @@ aside a {
     display: block;
     padding: 5px;
 }
+article {
+    display: flex;
+}
 
 /* Media Query for Tablet Screens */
 @media (max-width: 768px) {
